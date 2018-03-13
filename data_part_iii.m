@@ -13,14 +13,14 @@ input = [1 2 3 4];
 weight = [.1 .2 .3 .4]/100;
 bias = [2;2;2;2];
 activation_func(input,weight,bias)
-%Ouput = 0.5000
+%Ouput = 3.7809e-04 
 
 %Second: Medum Weights
 input = [1 2 3 4];
 weight = [.1 .2 .3 .4]/10;
 bias = [2;2;2;2];
 activation_func(input,weight,bias)
-%Ouput = 0.5744
+%Ouput = 0.0011
 
 %Third: Large Weights
 input = [1 2 3 4];
@@ -34,14 +34,14 @@ input = [1 2 3 4];
 weight = [.1 .2 .3 .4]/100;
 bias = [2;2;2;2];
 activation_func(input,weight,bias)
-%Ouput = 0.5075
+%Ouput = 3.7809e-04
 
 %Fifth:Large Inputs
 input = [100 200 300 400];
 weight = [.1 .2 .3 .4]/100;
 bias = [2;2;2;2];
 activation_func(input,weight,bias)
-%Ouput = 0.9526
+%Ouput = 0.9820
 
 %Fifth:Large Inputs
 input = [10000 20000 300000 400000];
