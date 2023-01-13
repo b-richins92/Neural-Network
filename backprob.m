@@ -78,7 +78,7 @@ for row = 1:200 % for entire set put size(inputdata,2)
     end
 end
 
-%% Test Data
+%% Test 
 
 inputdata = testdata;
 
